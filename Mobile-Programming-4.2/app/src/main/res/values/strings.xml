@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Implementasi Minggu 8</string>
+
+    <!-- EditText hint -->
+    <string name="edit_text_hint">Enter Your Last Name</string>
+
+    <!-- Button labels -->
+    <string name="text_button_label">Show Last Name</string>
+    <string name="check_button_label">Check Status</string>
+    <string name="radio_buttons_button_label">Check Hobby</string>
+    <string name="spinner_button_label">Check City</string>
+
+    <!-- CheckBox label -->
+    <string name="check_box_label">Friends</string>
+
+    <!-- RadioButtons options -->
+    <string name="radio_button_option1">FootBall</string>
+    <string name="radio_button_option2">BasketBall</string>
+    <string name="radio_button_option3">Swimming</string>
+    <string name="radio_button_option4">Climbing</string>
+
+    <!-- Spinner options -->
+    <string-array name="spinner_options">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+        <item>Option 5</item>
+    </string-array>
+</resources>

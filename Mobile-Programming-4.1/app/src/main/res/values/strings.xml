@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mobile-Programming-4.1</string>
+    <string name="tools_camping">Tools Camping</string>
+    <string name="tentDesc">A tent is a shelter consisting of sheets of fabric or other material draped over, attached to a frame of poles or a supporting rope</string>
+    <string name="sbDesc">A sleeping bag is an insulated covering for a person, essentially a lightweight quilt that can be closed with a zipper or similar means to form a tube, which functions as lightweight, portable bedding in situations where a person is sleeping outdoors.</string>
+    <string name="mattressDesc">A mattress is a large, usually rectangular pad for supporting a lying person. It is designed to be used as a bed, or on a bed frame as part of a bed.</string>
+    <string name="tent_order_message">You ordered a Tent.</string>
+    <string name="sb_order_message">You ordered an Sleeping Bag.</string>
+    <string name="mattress_order_message">You ordered a Mattress.</string>
+
+</resources>

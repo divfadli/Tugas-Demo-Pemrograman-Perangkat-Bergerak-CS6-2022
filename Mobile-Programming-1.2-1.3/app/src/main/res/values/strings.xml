@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">gamenews</string>
+    <string name="article_title">The Game News</string>
+    <string name="article_subtitle">Diablo 4 Glitch Lets Players Fly Through The Sky</string>
+    <string name="article_text">
+        \t\t <b>Jun 11, 2023</b> - A couple of surprised Diablo 4 players discover a glitch in the game that allows them to defy all gravity, making it appear as if they were flying through the sky. This glitch can be added to the relatively small but still notable list of fun bugs and glitches found in Diablo 4 after its record breaking launch. \n\n
+        \t\t Considering Blizzard Entertainment’s unfortunate history with unreliable Diablo servers, and the massive size of the game in general, the launch of the newest title in this legendary series has been less disappointing than many fans would have expected. A good amount of bugs and glitches have been spotted in the game, but most of them are fun to find and don’t threaten to ruin the experience. Adding to the list of fun glitches is the one found by the Reddit user below that allows a character to traverse the air with ease. \n\n
+        \t\t While some bugs found in Diablo 4 have ruined the gameplay experience for many players, the video that Interesting_Ease755 posted on Reddit will most likely make Diablo 4 fans want to try this glitch out for themselves. In the video, two characters climb across a rope to get over a small chasm. As the characters continue their momentum, they carry on past the rope itself while maintaining their climbing animations. This makes the characters appear to be moving forward in thin air, high above the monsters below, who look up at them with confusion in their eyes. According to the Reddit post, the two characters continued this momentum for a very long time. \n\n
+        \t\t It’s unclear how this glitch happened, but many of the commenters for the post have made their best guesses, with one of them invoking the name of Wile E. Coyote. The glitch itself doesn’t seem to be annoying fans like other bugs found in Diablo 4. Since both characters get stuck in the animation, most likely the glitch is not connected to the characters, but the rope itself. One commenter mentioned that they also experienced the bug on the same rope, but going the other way. \n\n
+        \t\t Chances are, this glitch will be patched out eventually, but in the meantime, Blizzard Entertainment has its hands full with more devastating bugs like the ones that are ruining the race to level 100 in Diablo 4. Still, it’s always nice for Diablo fans to laugh at a discovered glitch rather than lose everything they’ve put in the game because of one.
+    </string>
+    <string name="done_read"> Terima kasih telah membaca berita hari ini! </string>
+    <string name="back_read">Back</string>
+</resources>

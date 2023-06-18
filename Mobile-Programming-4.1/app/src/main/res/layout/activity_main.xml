@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/tools_camping"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tent"
+        android:layout_width="122dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/tentDesc"
+        android:onClick="showTent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:srcCompat="@drawable/tent" />
+
+    <ImageView
+        android:id="@+id/sb"
+        android:layout_width="122dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/sbDesc"
+        android:onClick="showSb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tent"
+        app:srcCompat="@drawable/sb"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/matras"
+        android:layout_width="114dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/mattressDesc"
+        android:onClick="showMattress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sb"
+        app:srcCompat="@drawable/matras"
+        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/text_tent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/tentDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/tent"
+        app:layout_constraintTop_toTopOf="@+id/tent"
+        tools:ignore="VisualLintLongText" />
+
+    <TextView
+        android:id="@+id/text_sb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/sbDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/sb"
+        app:layout_constraintTop_toTopOf="@+id/sb"
+        tools:ignore="VisualLintLongText" />
+
+    <TextView
+        android:id="@+id/text_matras"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/mattressDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/matras"
+        app:layout_constraintTop_toTopOf="@+id/matras"
+        tools:ignore="VisualLintLongText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
